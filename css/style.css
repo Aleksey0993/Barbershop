@@ -53,3 +53,166 @@ a {
 .user-navigation a:focus {
   background-color: #242424;
 }
+
+.advantages-item h3{
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.advantages-item {
+  text-align: center;
+}
+
+.advantages-list {
+  list-style: none;
+}
+
+
+.index-coloms {
+  color: #000000;
+  background-color: #f8f5f2;
+  background-image: url("../img/background-coloms");
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+.index-coloms h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.news-list {
+  list-style: none;
+}
+
+
+.news-list time {
+  text-transform: none;
+}
+
+.gallery-content img{
+  background-color: #e5e5e5;
+  border: 7px solid #ffffff;
+}
+
+.btn {
+  font: inherit;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #000000;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: #663d15;
+}
+
+.appointment input {
+  font: inherit;
+  background-color: transparent;
+  border: 2px solid #000000;
+}
+
+.appointment input:hover,
+ .appointment input:focus{
+  border: 2px solid #663d15;
+}
+
+.main-fotter{
+    color: #ffffff;
+    background-color: #202020;
+    background-image: url("../img/background-footer");
+    background-repeat: repeat;
+    background-position: 0 0;
+}
+
+.content-footer a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.content-footer a:hover,
+.content-footer a:focus {
+  text-decoration: none;
+}
+
+.social li{
+  display: inline-block;
+  list-style: none;
+}
+
+.social {
+  font-size:0;
+  text-align: center;
+}
+.social ul {
+  padding: 0;
+}
+
+.social a,
+.social b {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.item-text {
+  text-align: center;
+}
+
+.item-text .btn:hover,
+.item-text .btn:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+.modal{
+  color: #000000;
+
+  background-image: url("../img/background-coloms.jpg");
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.login-form input {
+  font: inherit;
+  border: 2px solid #000000;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.restore {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.restore:hover {
+  text-decoration: none;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+  color: #663d15;
+}
+
+.model {
+  color: #000000;
+
+  background-image: url("../img/background-coloms.jpg");
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+.model h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
