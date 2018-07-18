@@ -323,7 +323,7 @@ input[type="radio"].visually-hidden {
 
 .modal-login {
   width: 460px;
-  padding: 45px 80px; 
+  padding: 45px 80px;
 }
 
 .model {
@@ -337,4 +337,112 @@ input[type="radio"].visually-hidden {
 .model h2 {
   font-size: 30px;
   line-height: 42px;
+}
+
+
+.inner-page {
+  color: #000000;
+  background-image: url("../img/background-coloms.jpg");
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+.inner-page .main-header {
+  margin-bottom: 55px;
+  background-color: #000000;
+}
+
+.title-main {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 55px;
+  font-size: 0;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.breadcrumbs a {
+  color: #000000;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.catalog-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-photo {
+  width: 460px;
+}
+
+
+.description-product {
+  width: 390px;
+}
+
+.filters {
+  width: 180px;
+}
+
+.catalog {
+  width: 700px;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.catalog-item {
+  width: 220px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.pagination-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.facilities {
+  width: 240px;
+}
+
+.prices {
+  width: 460px;
+}
+
+.about-title {
+  display: flex;
+
+}
+
+.about-us-title {
+  width: 380px;
+  margin:0;
+  padding: 0;
+  margin-right: 100px;
+}
+
+.about-us-title:last-child {
+  margin-right: 0;
 }
