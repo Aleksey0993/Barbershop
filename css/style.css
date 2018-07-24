@@ -154,7 +154,7 @@ input[type="radio"].visually-hidden {
 }
 
 .advantages {
-  margin-bottom: 80px;
+  margin-bottom: 78px;
 }
 
 
@@ -204,13 +204,16 @@ input[type="radio"].visually-hidden {
   color: #000000;
   margin-bottom: 35px;
   background-color: #f8f5f2;
-  background-image: url("../img/background-coloms");
-  background-repeat: repeat;
-  background-position: 0 0;
-  padding: 50px 80px;
+  background-image: url("../img/line.png"),
+                    url("../img/background-coloms");
+  background-repeat: no-repeat, repeat;
+  background-position: center, 0 0;
+  padding: 45.5px 80px;
 }
 
 .index-coloms h2 {
+  margin: 0;
+  margin-bottom: 28px;
   font-size: 30px;
   line-height: 42px;
 }
