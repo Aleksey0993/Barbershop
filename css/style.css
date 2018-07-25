@@ -157,8 +157,6 @@ input[type="radio"].visually-hidden {
   margin-bottom: 78px;
 }
 
-
-
 .advantages-item h3{
   position: relative;
   font-size: 30px;
@@ -213,7 +211,7 @@ input[type="radio"].visually-hidden {
 
 .index-coloms h2 {
   margin: 0;
-  margin-bottom: 28px;
+  margin-bottom: 17.5px;
   font-size: 30px;
   line-height: 42px;
 }
@@ -227,19 +225,60 @@ input[type="radio"].visually-hidden {
 
 .news-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
 }
 
+.news-item {
+  margin-bottom: 25px;
+}
+
+.news-list p {
+  margin: 0;
+}
 
 .news-list time {
   text-transform: none;
 }
 
 .gallery-content {
+  margin: 0;
+  height: 164px;
   background-color: #e5e5e5;
   border: 7px solid #ffffff;
+  margin-bottom: 38px;
+}
+
+.gallery-content img {
+  width: 286px;
+  height: 164px;
+}
+
+.gallery-container {
+  position: relative;
+  height: 260px;
+}
+
+.gallery-container .btn {
+  position: absolute;
+  box-sizing: border-box;
+  width: 140px;
+  margin: 0;
+}
+
+.btn-back {
+  left: 0;
+}
+
+.btn-next {
+  right: 0;
 }
 
 .btn {
+  display: inline-block;
+  padding: 10px 30px;
+  margin-right: 16px;
   font: inherit;
   color: #ffffff;
   text-align: center;
@@ -249,10 +288,19 @@ input[type="radio"].visually-hidden {
   border: none;
 }
 
+
+
 .btn:hover,
 .btn:focus,
 .btn:active {
   background-color: #663d15;
+}
+
+.btn.disabled,
+.btn:disabled {
+  cursor: default;
+  opacity: 0.5;
+  background-color: #000000;
 }
 
 .contacts {
