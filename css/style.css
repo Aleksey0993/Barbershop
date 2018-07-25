@@ -307,12 +307,29 @@ input[type="radio"].visually-hidden {
   width: 380px;
 }
 
+.contacts p {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
 .appointment {
   width: 300px;
 }
 
+.appointment-title {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
 
 .appointment input {
+  box-sizing: border-box;
+  width: 140px;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 7px;
+
   font: inherit;
   background-color: transparent;
   border: 2px solid #000000;
@@ -322,6 +339,33 @@ input[type="radio"].visually-hidden {
  .appointment input:focus{
   border: 2px solid #663d15;
 }
+
+
+.appointment-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.appointment-items {
+  width: 140px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.appointment-items label {
+  display: block;
+  margin-left: 17px;
+  margin-bottom: 9px;
+}
+
+.appointment-form .btn {
+  width: 100%;
+  margin-right: 0;
+  margin-top: 10px;
+}
+
 
 .main-fotter{
     color: #ffffff;
@@ -354,9 +398,24 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
 }
 
-.social li{
-  display: inline-block;
-  list-style: none;
+.social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 43px;
+  height: 43px;
+
+  background-color: #000000;
+}
+
+.social-button:hover,
+ .social-button:focus{
+  background-color: #ffffff;
+}
+
+.social-button:hover path,
+.social-button:focus path {
+  fill: #000000;
 }
 
 .social {
@@ -365,7 +424,13 @@ input[type="radio"].visually-hidden {
   text-align: center;
 }
 .social ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 140px;
   padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .social a,
@@ -374,12 +439,28 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
 }
 
+.social b {
+  display: block;
+  margin-bottom: 15px;
+}
+
 .item-text {
   width: 150px;
-  text-align: center;
   margin: 0;
+  padding: 0;
   margin-left: auto;
+  text-align: center;
+}
 
+
+
+.item-text .btn {
+  display: block;
+  margin-right: 0;
+}
+.item-text b {
+  display: block;
+  margin-bottom: 15px;
 }
 
 .item-text .btn:hover,
@@ -387,6 +468,8 @@ input[type="radio"].visually-hidden {
   color: #000000;
   background-color: #ffffff;
 }
+
+
 
 
 .modal{
