@@ -729,9 +729,18 @@ input[type="radio"].visually-hidden {
   width: 460px;
 }
 
+.prices h2 {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
 .about-title {
   display: flex;
 
+}
+
+.about-us {
+  margin-top: 63px;
 }
 
 .about-us-title {
@@ -763,7 +772,82 @@ input[type="radio"].visually-hidden {
 
 
 .pris-title {
+  position: relative;
   font-size: 48px;
   line-height: 48px;
   text-align: center;
+  margin-bottom: 65px;
+}
+
+.pris-title::after {
+  content: "";
+  position: absolute;
+  top: 23px;
+  right: 0px;
+  width: 160px;
+  height: 2px;
+  background-color: #000000;
+}
+
+.pris-title::before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 0px;
+  width: 160px;
+  height: 2px;
+  background-color: #000000;
+}
+
+.facilities h2 {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+
+.list-facilities {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-facilities li {
+  position: relative;
+  margin-bottom: 17px;
+  margin-left: 20px;
+}
+
+.list-facilities li:last-child {
+  margin-bottom: 0;
+}
+
+.list-facilities li::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -20px;
+  width: 8px;
+  height: 8px;
+  background-color: #000000;
+  transform: rotate(45deg);
+}
+
+.prices-list {
+  width: 460px;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+.prices-list td{
+  box-sizing: border-box;
+  padding: 0;
+  width: 227px;
+  border: 2px solid #000000;
+  padding: 8px 17px;
+
+}
+
+.prices-list .centr {
+  text-align: center;
+  padding-left: 0;
 }
