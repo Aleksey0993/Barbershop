@@ -760,3 +760,10 @@ input[type="radio"].visually-hidden {
 .inner-page .main-fotter {
   margin-top: 49px;
 }
+
+
+.pris-title {
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
