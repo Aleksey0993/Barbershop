@@ -193,7 +193,7 @@ input[type="radio"].visually-hidden {
   margin-bottom: 35px;
   background-color: #f8f5f2;
   background-image: url("../img/line.png"),
-                    url("../img/background-coloms");
+                    url("../img/background-coloms.jpg");
   background-repeat: no-repeat, repeat;
   background-position: center, 0 0;
   padding: 45.5px 80px;
@@ -360,7 +360,7 @@ input[type="radio"].visually-hidden {
 .main-fotter{
     color: #ffffff;
     background-color: #202020;
-    background-image: url("../img/background-footer");
+    background-image: url("../img/background-footer.jpg");
     background-repeat: repeat;
     background-position: 0 0;
     margin-top: 65px;
