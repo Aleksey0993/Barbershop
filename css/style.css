@@ -1130,3 +1130,6 @@ input[type="radio"].visually-hidden {
   background: url("../img/cross.png") no-repeat;
   cursor: pointer;
 }
+.product-price .btn {
+  color: #ffffff;
+}
