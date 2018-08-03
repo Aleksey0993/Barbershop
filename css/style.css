@@ -1134,3 +1134,16 @@ input[type="radio"].visually-hidden {
 .product-price .btn {
   color: #ffffff;
 }
+
+
+.login-icon-user {
+  background-image: url("../img/user.png");
+  background-repeat: no-repeat;
+  background-position: 270px center;
+}
+
+.login-icon-password {
+  background-image: url("../img/lock.png");
+  background-repeat: no-repeat;
+  background-position: 270px center;
+}
